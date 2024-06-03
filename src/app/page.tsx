@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Hero from './../../public/hero.png';
+import Button from "@/components/Button/button"
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
             Turning your Idea into Reality. We bring together the teams from the
             global tech industry.
           </div>
-          {/*<Button url="/portfolio" text="See Our Works"/>*/}
+          <Button url="/portfolio" text="See Our Works"/>
         </div>
         <div className="flex-1 flex flex-col gap-[50px]">
           <Image src={Hero} alt="" className="object-contain" width="100%" height={500} />
