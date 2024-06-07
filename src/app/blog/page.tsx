@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 async function getData() {
-    const res = await fetch('http://3000/api/post', {
+    const res = await fetch('http://localhost:3000/api/posts', {
         cache: "no-cache"
     })
     if (!res.ok) return new Error('Failed to fetch data!')

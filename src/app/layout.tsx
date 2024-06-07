@@ -9,6 +9,10 @@ import {ThemeProvider} from "@/components/context/ThemeContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const metadata = {
+    title: "Jerry"
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
